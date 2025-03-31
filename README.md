@@ -4,7 +4,8 @@ A conversion of [websockify-js](https://github.com/novnc/websockify-js) to work 
 
 ## IMPORTANT:
 
-Using [svelte-vnc](https://github.com/Zucchy00/svelte-vnc) with embedded_server to make it work with the backend.
+* Using [svelte-vnc](https://github.com/Zucchy00/svelte-vnc) with embedded_server to make it work with the backend.
+* Using [SvelteKit-integrated-Websocket](https://github.com/suhaildawood/SvelteKit-integrated-WebSocket) as base.
 
 ## Usage:
 
