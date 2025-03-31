@@ -2,7 +2,7 @@
 
 A conversion of [websockify-js](https://github.com/novnc/websockify-js) to work with sveltekit 4 and 5 backend by sharing the messages between the websocket connection to the tcp connection of the vnc in this case.
 
-## IMPORTANT:
+## mention:
 
 * Using [svelte-vnc](https://github.com/Zucchy00/svelte-vnc) with embedded_server to make it work with the backend.
 * Using [SvelteKit-integrated-Websocket](https://github.com/suhaildawood/SvelteKit-integrated-WebSocket) as base.
