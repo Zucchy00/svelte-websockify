@@ -3,7 +3,7 @@ import { svelteTesting } from '@testing-library/svelte/vite';
 import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
 import { createWSSGlobalInstance, onHttpServerUpgrade } from './src/lib/server/webSocketUtils';
-// import fs from 'fs';
+import fs from 'fs';
 
 export default defineConfig({
 	plugins: [
@@ -48,13 +48,13 @@ export default defineConfig({
 			}
 		]
 	},
-	// server: {
-	// 	host: '0.0.0.0',
-	// 	https: {
-    //         key: fs.readFileSync(`${__dirname}/cert/IT-W-BGOOA033-key.pem`),
-    //         cert: fs.readFileSync(`${__dirname}/cert/IT-W-BGOOA033.pem`),
-    //     },
-	// 	proxy: {},
-	// 	port: 443
-	// },
+	server: {
+		host: '0.0.0.0',
+		https: {
+            key: fs.readFileSync(`${__dirname}/cert/key.pem`),
+            cert: fs.readFileSync(`${__dirname}/cert/cert.pem`),
+        },
+		proxy: {},
+		port: 443
+	},
 });
