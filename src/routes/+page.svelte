@@ -7,5 +7,5 @@
 </script>
 
 <div class="w-screen h-screen">
-    <NoVNC class="w-full h-full" clearLocalStorage={true} host={host} username={username} password={password} port={port} autoconnect={true} embedded_server={true} resize="scale"/>
+    <NoVNC class="w-full h-full" clearLocalStorage={true} host={host} username={username} password={password} port={port} autoconnect={true} show_dot={true} embedded_server={true} resize="scale"/>
 </div>
