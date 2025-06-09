@@ -13,6 +13,10 @@ A conversion of [websockify-js](https://github.com/novnc/websockify-js) to work 
 ```
     npm install
 ```
+### Update to the latest VNC component:
+```
+    npm install svelte-vnc@latest
+```
 ### Run Dev Mode:
 ```
     npm run dev -- --host --port 5173
